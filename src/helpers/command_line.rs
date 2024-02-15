@@ -43,7 +43,7 @@ pub fn get_user_response(question: &str) -> String {
     stdout.execute(SetForegroundColor(Color::Blue)).unwrap();
     println!("");
     println!("{}", question);
-    
+
     // Reset Color
     stdout.execute(ResetColor).unwrap();
 
